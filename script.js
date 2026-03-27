@@ -4,31 +4,21 @@ fullScreen:{enable:false},
 
 particles:{
 
-number:{
-value:260
-},
+number:{ value:260 },
 
-color:{
-value:"#ffffff"
-},
+color:{ value:"#ffffff" },
 
-shape:{
-type:"circle"
-},
+shape:{ type:"circle" },
 
-opacity:{
-value:0.7
-},
+opacity:{ value:0.7 },
 
-size:{
-value:2
-},
+size:{ value:2 },
 
 links:{
 enable:true,
 distance:170,
 color:"#ffffff",
-opacity:0.25,
+opacity:0.35,
 width:1
 },
 
@@ -42,23 +32,15 @@ speed:1.5
 interactivity:{
 
 events:{
-
-onHover:{
-enable:true,
-mode:["grab","repulse"]
-},
-
+onHover:{ enable:true, mode:["grab","repulse"] },
 resize:true
-
 },
 
 modes:{
 
 grab:{
 distance:160,
-links:{
-opacity:0.6
-}
+links:{ opacity:0.6 }
 },
 
 repulse:{
@@ -75,6 +57,8 @@ detectRetina:true
 })
 
 const btn=document.querySelector(".start-btn")
+
+if(btn){
 
 btn.addEventListener("mousemove",e=>{
 
@@ -94,8 +78,4 @@ btn.style.boxShadow="0 0 25px white"
 
 })
 
-btn.addEventListener("click",()=>{
-
-alert("Protocol Initialized")
-
-})
+}
