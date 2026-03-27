@@ -26,7 +26,7 @@ value:2
 
 links:{
 enable:true,
-distance:130,
+distance:240,
 color:"#ffffff",
 opacity:0.25,
 width:1
