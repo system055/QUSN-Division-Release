@@ -5,7 +5,7 @@ fullScreen:{enable:false},
 particles:{
 
 number:{
-value:300
+value:260
 },
 
 color:{
@@ -26,7 +26,7 @@ value:2
 
 links:{
 enable:true,
-distance:240,
+distance:170,
 color:"#ffffff",
 opacity:0.25,
 width:1
