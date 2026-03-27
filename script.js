@@ -5,7 +5,7 @@ fullScreen:{enable:false},
 particles:{
 
 number:{
-value:160
+value:300
 },
 
 color:{
