@@ -1,1 +1,65 @@
+/* Reset */
+* { margin:0; padding:0; box-sizing:border-box; }
 
+/* Body + Particles */
+body {
+  height: 100vh;
+  width: 100vw;
+  background: #0b0b0f;
+  color: #00f0ff;
+  font-family: 'JetBrains Mono', monospace;
+  overflow: hidden;
+  position: relative;
+}
+
+/* Particle Background */
+#particles {
+  position: absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  z-index: 0;
+}
+
+/* Landing Content */
+.container {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  top: 40%;
+  transform: translateY(-40%);
+}
+
+.title {
+  font-size: 4rem;
+  letter-spacing: 5px;
+  margin-bottom: 20px;
+  text-shadow: 0 0 10px #00f0ff, 0 0 20px #00f0ff;
+}
+
+.subtitle {
+  font-size: 1.5rem;
+  letter-spacing: 3px;
+  margin-bottom: 40px;
+  opacity: 0.8;
+}
+
+.start-btn {
+  font-size: 1.2rem;
+  padding: 15px 40px;
+  border: 2px solid #00f0ff;
+  background: transparent;
+  color: #00f0ff;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.start-btn:hover {
+  background: #00f0ff;
+  color: #0b0b0f;
+  transform: scale(1.1);
+  box-shadow: 0 0 30px #00f0ff, 0 0 60px #00f0ff inset;
+}
